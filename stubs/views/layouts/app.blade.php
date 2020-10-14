@@ -14,7 +14,7 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
     <!-- Styles -->
-    <link href="{{ asset('vendor/fort-bs/css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/fortify-bootstrap.css') }}" rel="stylesheet">
     @yield('styles')
 </head>
 <body>
@@ -82,7 +82,7 @@
     </div>
 
     <!-- Scripts -->
-    <script src="{{ asset('vendor/fort-bs/js/app.js') }}"></script>
+    <script src="{{ asset('css/fortify-bootstrap.js') }}"></script>
     @yield('scripts')
 </body>
 </html>
