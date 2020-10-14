@@ -1,0 +1,31 @@
+{
+    "name": "akukoder/fortify-bootstrap",
+    "description": "Laravel Fortify package using Bootstrap theme",
+    "type": "package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Syahril Zulkefli",
+            "email": "syahzul@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.3",
+        "illuminate/support": "^7.0|^8.0",
+        "illuminate/view": "^7.0|^8.0",
+        "laravel/fortify": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Akukoder\\FortifyBootstrap\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Akukoder\\FortifyBootstrap\\FortifyBootstrapServiceProvider"
+            ]
+        }
+    }
+}
